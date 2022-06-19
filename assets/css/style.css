@@ -1,0 +1,13 @@
+body {
+    background-image: url(../images/watercolorbackground.jpg)
+}
+
+header {
+    width: 75px;
+    color: rgb(166, 177, 137);
+}
+
+li {
+    float: right;
+    
+}
