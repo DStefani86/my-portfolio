@@ -1,13 +1,31 @@
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
-    background-image: url(../images/watercolorbackground.jpg)
+    background-image: url(../images/2440239.jpg);
+    background-size: cover
+
 }
 
 header {
-    width: 75px;
-    color: rgb(166, 177, 137);
+    align-items: flex-start;
+    background-image: url(../images/pngegg.png);
+    width: 100%;
+    height: 100px;
+
 }
 
-li {
-    float: right;
+header h1 {
     
+}
+
+ul .links {
+    justify-content:
+    position: relative;
+    display: flex;
+    font-size: larger;
+    padding: 15px;
+       
 }
