@@ -27,23 +27,29 @@ h1 {
 
 .bio-head {
     position: absolute;
+    padding-right: 118px;
     margin-top: 13%;
     margin-left: 2%;
     border-right: 2%;
-    font-size: 75px;
     border-right-style: solid;
     border-right-color: black;
     border-right-width: 10px;
+    font-size: 75px;
+    
 }
 
 .bio-text {
     position: absolute;
-    align-content: center;
-    top: 50%;
-    right: 50%;
-    border: 5px solid black;
-    border-radius: 10%;
-    border-top-right-radius: 10% 30%;
+    font-size:  x-large;
+    justify-content: center;
+    top: 800px;
+    right: 400px;
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 10px;
+    margin-top: 50px;
+    margin-left: 513px;
+    padding: 0px 80px 80px 80px;
       }
 
 
