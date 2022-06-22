@@ -122,19 +122,22 @@ a:hover, a:active {
 
 #work-container {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .sample01 {
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  text-align: center;
+  size: 40px;
   border: solid 10px black;
   background-color: red;
   width: 50%;
+  height: 100px;
 }
 
 .sample02 {
-  flex-direction: wrap;
+  text-align: center;
   justify-content: center;
   border: solid 10px black;
   background-color: red;
@@ -142,8 +145,19 @@ a:hover, a:active {
 } 
 
 .sample03 {
+  text-align: center;
   border: solid 10px black;
   background-color: red;
   width: 20%;
 } 
 
+#contacts-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
